@@ -50,9 +50,9 @@
                 <version>1.0.0-BETA7-71-618c2d1a1e6276f8695006405b18367c8b8fbe19</version>
                 <configuration>
                     <server>http://localhost:8080</server>
-                    <projectKey>DEMO</projectKey>
+                    <projectKey>APP</projectKey>
                     <username>lmeurisse</username>
-                    <password>sapiens</password>
+                    <password>lmeurisse</password>
                 </configuration>
                 <executions>
                     <execution>
