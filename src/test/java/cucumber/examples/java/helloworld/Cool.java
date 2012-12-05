@@ -1,5 +1,6 @@
 package cucumber.examples.java.helloworld;
 
+import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -72,6 +73,43 @@ public class Cool {
 
 		assertEquals("account locked",RetourConnect );
 
+	}
+	
+	@Then("^the system has to display this \"([^\"]*)\"$")
+	public void the_system_has_to_display_this(String arg1) throws Throwable {
+		assertEquals(arg1,RetourConnect );
+	}
+	
+	
+	//***
+	
+	@Given("^he is already logged$")
+	public void he_is_already_logged() throws Throwable {
+		
+		loggin = new Loggin ();
+		loggin.createUser( username, username, username);
+		RetourConnect = loggin.connect(username, username);
+		assertEquals("OK",RetourConnect);
+	}
+
+	@Given("^he has the following next flights :$")
+	public void he_has_the_following_next_flights_(DataTable arg1) throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    // For automatic conversion, change DataTable to List<YourType>
+	    throw new PendingException();
+	}
+
+	@When("^I want the list of the next (\\d+) flights$")
+	public void I_want_the_list_of_the_next_flights(int arg1) throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^I get the following list :$")
+	public void I_get_the_following_list_(DataTable arg1) throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    // For automatic conversion, change DataTable to List<YourType>
+	    throw new PendingException();
 	}
 
 
