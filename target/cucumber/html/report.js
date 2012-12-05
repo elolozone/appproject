@@ -61,7 +61,7 @@ formatter.match({
   "location": "Cool.a_user(String)"
 });
 formatter.result({
-  "duration": 113864000,
+  "duration": 120085000,
   "status": "passed"
 });
 formatter.match({
@@ -78,7 +78,7 @@ formatter.match({
   "location": "Cool.his_login_is_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 234000,
+  "duration": 159000,
   "status": "passed"
 });
 formatter.match({
@@ -95,14 +95,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 156000,
+  "duration": 86000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_authorize_him()"
 });
 formatter.result({
-  "duration": 35000,
+  "duration": 27000,
   "status": "passed"
 });
 formatter.background({
@@ -156,7 +156,7 @@ formatter.match({
   "location": "Cool.a_user(String)"
 });
 formatter.result({
-  "duration": 121000,
+  "duration": 73000,
   "status": "passed"
 });
 formatter.match({
@@ -173,7 +173,7 @@ formatter.match({
   "location": "Cool.his_login_is_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 144000,
+  "duration": 91000,
   "status": "passed"
 });
 formatter.match({
@@ -190,14 +190,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 152000,
+  "duration": 84000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_the_password_fail()"
 });
 formatter.result({
-  "duration": 36000,
+  "duration": 23000,
   "status": "passed"
 });
 formatter.background({
@@ -281,7 +281,7 @@ formatter.match({
   "location": "Cool.a_user(String)"
 });
 formatter.result({
-  "duration": 130000,
+  "duration": 76000,
   "status": "passed"
 });
 formatter.match({
@@ -298,7 +298,7 @@ formatter.match({
   "location": "Cool.his_login_is_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 153000,
+  "duration": 101000,
   "status": "passed"
 });
 formatter.match({
@@ -315,14 +315,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 142000,
+  "duration": 166000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_the_password_fail()"
 });
 formatter.result({
-  "duration": 27000,
+  "duration": 17000,
   "status": "passed"
 });
 formatter.match({
@@ -339,14 +339,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 144000,
+  "duration": 73000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_the_password_fail()"
 });
 formatter.result({
-  "duration": 34000,
+  "duration": 13000,
   "status": "passed"
 });
 formatter.match({
@@ -363,14 +363,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 159000,
+  "duration": 84000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_that_the_account_is_locked()"
 });
 formatter.result({
-  "duration": 42000,
+  "duration": 18000,
   "status": "passed"
 });
 formatter.match({
@@ -387,16 +387,15 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 157000,
+  "duration": 83000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_that_the_account_is_locked()"
 });
 formatter.result({
-  "duration": 794000,
-  "status": "failed",
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[account locked]\u003e but was:\u003c[OK]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:125)\n\tat org.junit.Assert.assertEquals(Assert.java:147)\n\tat cucumber.examples.java.helloworld.Cool.the_system_display_that_the_account_is_locked(Cool.java:73)\n\tat ✽.Then the system display that the account is locked(target/generated-test-sources/cucumber/2.feature:35)\n"
+  "duration": 19000,
+  "status": "passed"
 });
 formatter.background({
   "description": "",
@@ -469,7 +468,7 @@ formatter.match({
   "location": "Cool.a_user(String)"
 });
 formatter.result({
-  "duration": 128000,
+  "duration": 130000,
   "status": "passed"
 });
 formatter.match({
@@ -486,7 +485,7 @@ formatter.match({
   "location": "Cool.his_login_is_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 140000,
+  "duration": 96000,
   "status": "passed"
 });
 formatter.match({
@@ -503,14 +502,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 141000,
+  "duration": 95000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_the_password_fail()"
 });
 formatter.result({
-  "duration": 33000,
+  "duration": 17000,
   "status": "passed"
 });
 formatter.match({
@@ -527,14 +526,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 131000,
+  "duration": 82000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_the_password_fail()"
 });
 formatter.result({
-  "duration": 32000,
+  "duration": 13000,
   "status": "passed"
 });
 formatter.match({
@@ -551,14 +550,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 145000,
+  "duration": 85000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_authorize_him()"
 });
 formatter.result({
-  "duration": 33000,
+  "duration": 29000,
   "status": "passed"
 });
 formatter.background({
@@ -662,7 +661,7 @@ formatter.match({
   "location": "Cool.a_user(String)"
 });
 formatter.result({
-  "duration": 206000,
+  "duration": 90000,
   "status": "passed"
 });
 formatter.match({
@@ -679,7 +678,7 @@ formatter.match({
   "location": "Cool.his_login_is_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 148000,
+  "duration": 81000,
   "status": "passed"
 });
 formatter.match({
@@ -696,14 +695,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 130000,
+  "duration": 91000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_the_password_fail()"
 });
 formatter.result({
-  "duration": 30000,
+  "duration": 28000,
   "status": "passed"
 });
 formatter.match({
@@ -720,14 +719,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 154000,
+  "duration": 93000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_the_password_fail()"
 });
 formatter.result({
-  "duration": 29000,
+  "duration": 19000,
   "status": "passed"
 });
 formatter.match({
@@ -744,14 +743,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 156000,
+  "duration": 92000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_authorize_him()"
 });
 formatter.result({
-  "duration": 31000,
+  "duration": 22000,
   "status": "passed"
 });
 formatter.match({
@@ -768,16 +767,15 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "duration": 140000,
+  "duration": 124000,
   "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_the_password_fail()"
 });
 formatter.result({
-  "duration": 228000,
-  "status": "failed",
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[password fail]\u003e but was:\u003c[account locked]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:125)\n\tat org.junit.Assert.assertEquals(Assert.java:147)\n\tat cucumber.examples.java.helloworld.Cool.the_system_display_the_password_fail(Cool.java:65)\n\tat ✽.Then the system display the password fail(target/generated-test-sources/cucumber/2.feature:61)\n"
+  "duration": 20000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -793,13 +791,15 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 101000,
+  "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_display_the_password_fail()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 22000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -815,12 +815,14 @@ formatter.match({
   "location": "Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 113000,
+  "status": "passed"
 });
 formatter.match({
   "location": "Cool.the_system_authorize_him()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 19000,
+  "status": "passed"
 });
 });

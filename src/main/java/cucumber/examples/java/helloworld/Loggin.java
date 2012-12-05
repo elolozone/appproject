@@ -22,14 +22,15 @@ public class Loggin {
 	}
 
 	public String connect (String login, String password )   {
-		
+		if (user.failCount >= 3) return "account locked" ;
 		if (user == null ) return "No User already defined";
 		if (!user.login.equals(login)) return "This user does not exist";
 		if (user.login.equals(login) && !user.password.equals(password)) {
-			if (user.failCount >= 2) return "account locked" ;
 			user.failCount +=1; 
+			if (user.failCount >= 3) return "account locked" ;
 			return "password fail";
 			}
+		user.failCount = 0;
 		return "OK";
 	}
 	

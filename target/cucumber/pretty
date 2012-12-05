@@ -49,13 +49,7 @@ Feature: Connection to the system
     [90mWhen [0m[90mhe wants to be connected with this login "[0m[90m[1mlmeurisse[0m[90m" and password "[0m[90m[1mcoucou[0m[90m"[0m  [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
 [1A    [32mWhen [0m[32mhe wants to be connected with this login "[0m[32m[1mlmeurisse[0m[32m" and password "[0m[32m[1mcoucou[0m[32m"[0m  [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
     [90mThen [0m[90mthe system display that the account is locked[0m                               [90m# Cool.the_system_display_that_the_account_is_locked()[0m
-[1A    [31mThen [0m[31mthe system display that the account is locked[0m                               [90m# Cool.the_system_display_that_the_account_is_locked()[0m
-      [31morg.junit.ComparisonFailure: expected:<[account locked]> but was:<[OK]>
-      	at org.junit.Assert.assertEquals(Assert.java:125)
-      	at org.junit.Assert.assertEquals(Assert.java:147)
-      	at cucumber.examples.java.helloworld.Cool.the_system_display_that_the_account_is_locked(Cool.java:73)
-      	at ✽.Then the system display that the account is locked(target/generated-test-sources/cucumber/2.feature:35)
-      [0m
+[1A    [32mThen [0m[32mthe system display that the account is locked[0m                               [90m# Cool.the_system_display_that_the_account_is_locked()[0m
 
   Background:  [90m# target/generated-test-sources/cucumber/2.feature:4[0m
 
@@ -101,18 +95,12 @@ Feature: Connection to the system
     [90mWhen [0m[90mhe wants to be connected with this login "[0m[90m[1mlmeurisse[0m[90m" and password "[0m[90m[1mcoucoux[0m[90m"[0m [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
 [1A    [32mWhen [0m[32mhe wants to be connected with this login "[0m[32m[1mlmeurisse[0m[32m" and password "[0m[32m[1mcoucoux[0m[32m"[0m [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
     [90mThen [0m[90mthe system display the password fail[0m                                        [90m# Cool.the_system_display_the_password_fail()[0m
-[1A    [31mThen [0m[31mthe system display the password fail[0m                                        [90m# Cool.the_system_display_the_password_fail()[0m
-      [31morg.junit.ComparisonFailure: expected:<[password fail]> but was:<[account locked]>
-      	at org.junit.Assert.assertEquals(Assert.java:125)
-      	at org.junit.Assert.assertEquals(Assert.java:147)
-      	at cucumber.examples.java.helloworld.Cool.the_system_display_the_password_fail(Cool.java:65)
-      	at ✽.Then the system display the password fail(target/generated-test-sources/cucumber/2.feature:61)
-      [0m
+[1A    [32mThen [0m[32mthe system display the password fail[0m                                        [90m# Cool.the_system_display_the_password_fail()[0m
     [90mWhen [0m[90mhe wants to be connected with this login "[0m[90m[1mlmeurisse[0m[90m" and password "[0m[90m[1mcoucoux[0m[90m"[0m [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
-[1A    [36mWhen [0m[36mhe wants to be connected with this login "[0m[36m[1mlmeurisse[0m[36m" and password "[0m[36m[1mcoucoux[0m[36m"[0m [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
+[1A    [32mWhen [0m[32mhe wants to be connected with this login "[0m[32m[1mlmeurisse[0m[32m" and password "[0m[32m[1mcoucoux[0m[32m"[0m [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
     [90mThen [0m[90mthe system display the password fail[0m                                        [90m# Cool.the_system_display_the_password_fail()[0m
-[1A    [36mThen [0m[36mthe system display the password fail[0m                                        [90m# Cool.the_system_display_the_password_fail()[0m
+[1A    [32mThen [0m[32mthe system display the password fail[0m                                        [90m# Cool.the_system_display_the_password_fail()[0m
     [90mWhen [0m[90mhe wants to be connected with this login "[0m[90m[1mlmeurisse[0m[90m" and password "[0m[90m[1mcoucou[0m[90m"[0m  [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
-[1A    [36mWhen [0m[36mhe wants to be connected with this login "[0m[36m[1mlmeurisse[0m[36m" and password "[0m[36m[1mcoucou[0m[36m"[0m  [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
+[1A    [32mWhen [0m[32mhe wants to be connected with this login "[0m[32m[1mlmeurisse[0m[32m" and password "[0m[32m[1mcoucou[0m[32m"[0m  [90m# Cool.he_wants_to_be_connected_with_this_login_and_password(String,String)[0m
     [90mThen [0m[90mthe system authorize him[0m                                                    [90m# Cool.the_system_authorize_him()[0m
-[1A    [36mThen [0m[36mthe system authorize him[0m                                                    [90m# Cool.the_system_authorize_him()[0m
+[1A    [32mThen [0m[32mthe system authorize him[0m                                                    [90m# Cool.the_system_authorize_him()[0m
