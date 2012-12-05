@@ -102,7 +102,7 @@ formatter.match({
   "location": "Cool.I_have_a_hello_app_with()"
 });
 formatter.result({
-  "duration": 121965000,
+  "duration": 140079000,
   "status": "passed"
 });
 formatter.match({});
