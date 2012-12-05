@@ -14,6 +14,7 @@ public class Cool {
 	@Given("^this$")
 	    public void I_have_a_hello_app_with() {
 	        new Hello("jj");
+	        
 	    }
 	    
 	    
