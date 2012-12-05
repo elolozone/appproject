@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="4" time="0.03" errors="0" skipped="4" tests="45" name="cucumber.examples.java.helloworld.RunCukesTest">
+<testsuite failures="4" time="0.034" errors="0" skipped="4" tests="45" name="cucumber.examples.java.helloworld.RunCukesTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -27,7 +27,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/Lolo/Documents/workspace-sts-2.9.1.RELEASE/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf1470268843372879016.tmp"/>
+    <property name="classworlds.conf" value="/Users/Lolo/Documents/workspace-sts-2.9.1.RELEASE/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf7519470655503452830.tmp"/>
     <property name="sun.jnu.encoding" value="MacRoman"/>
     <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -66,14 +66,14 @@
   </properties>
   <testcase time="0.001" classname="Given a user \&quot;Laurent Meurisse\&quot;   " name="Given a user \&quot;Laurent Meurisse\&quot;   "/>
   <testcase time="0" classname="And his login is \&quot;lmeurisse\&quot; and Password \&quot;coucou\&quot;    " name="And his login is \&quot;lmeurisse\&quot; and Password \&quot;coucou\&quot;    "/>
-  <testcase time="0.001" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;     " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;     "/>
-  <testcase time="0.001" classname="Then the system authorize him      " name="Then the system authorize him      "/>
+  <testcase time="0" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;     " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;     "/>
+  <testcase time="0" classname="Then the system authorize him      " name="Then the system authorize him      "/>
   <testcase time="0.001" classname="Scenario: correct login  " name="Scenario: correct login  "/>
   <testcase time="0" classname="Given a user \&quot;Laurent Meurisse\&quot;        " name="Given a user \&quot;Laurent Meurisse\&quot;        "/>
   <testcase time="0" classname="And his login is \&quot;lmeurisse\&quot; and Password \&quot;coucou\&quot;         " name="And his login is \&quot;lmeurisse\&quot; and Password \&quot;coucou\&quot;         "/>
   <testcase time="0" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;          " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;          "/>
   <testcase time="0" classname="Then the system display the password fail           " name="Then the system display the password fail           "/>
-  <testcase time="0.001" classname="Scenario: to login error       " name="Scenario: to login error       "/>
+  <testcase time="0.003" classname="Scenario: to login error       " name="Scenario: to login error       "/>
   <testcase time="0" classname="Given a user \&quot;Laurent Meurisse\&quot;             " name="Given a user \&quot;Laurent Meurisse\&quot;             "/>
   <testcase time="0" classname="And his login is \&quot;lmeurisse\&quot; and Password \&quot;coucou\&quot;              " name="And his login is \&quot;lmeurisse\&quot; and Password \&quot;coucou\&quot;              "/>
   <testcase time="0" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;               " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;               "/>
@@ -91,7 +91,7 @@
 	at ✽.Then the system display that the account is locked(target/generated-test-sources/cucumber/2.feature:35)
 </failure>
   </testcase>
-  <testcase time="0.003" classname="Scenario: Password fail three times            " name="Scenario: Password fail three times            ">
+  <testcase time="0.002" classname="Scenario: Password fail three times            " name="Scenario: Password fail three times            ">
     <failure message="expected:&lt;[account locked]&gt; but was:&lt;[OK]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[account locked]&gt; but was:&lt;[OK]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:125)
 	at org.junit.Assert.assertEquals(Assert.java:147)
@@ -107,14 +107,14 @@
   <testcase time="0" classname="Then the system display the password fail                             " name="Then the system display the password fail                             "/>
   <testcase time="0" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                              " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                              "/>
   <testcase time="0" classname="Then the system authorize him                               " name="Then the system authorize him                               "/>
-  <testcase time="0.001" classname="Scenario: password fail 2x but good after                       " name="Scenario: password fail 2x but good after                       "/>
+  <testcase time="0" classname="Scenario: password fail 2x but good after                       " name="Scenario: password fail 2x but good after                       "/>
   <testcase time="0" classname="Given a user \&quot;Laurent Meurisse\&quot;                                 " name="Given a user \&quot;Laurent Meurisse\&quot;                                 "/>
   <testcase time="0" classname="And his login is \&quot;lmeurisse\&quot; and Password \&quot;coucou\&quot;                                  " name="And his login is \&quot;lmeurisse\&quot; and Password \&quot;coucou\&quot;                                  "/>
-  <testcase time="0" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                   " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                   "/>
+  <testcase time="0.001" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                   " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                   "/>
   <testcase time="0" classname="Then the system display the password fail                                    " name="Then the system display the password fail                                    "/>
   <testcase time="0" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                     " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                     "/>
-  <testcase time="0" classname="Then the system display the password fail                                      " name="Then the system display the password fail                                      "/>
-  <testcase time="0" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                                       " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                                       "/>
+  <testcase time="0.001" classname="Then the system display the password fail                                      " name="Then the system display the password fail                                      "/>
+  <testcase time="0.002" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                                       " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                                       "/>
   <testcase time="0" classname="Then the system authorize him                                        " name="Then the system authorize him                                        "/>
   <testcase time="0" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                         " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                         "/>
   <testcase time="0" classname="Then the system display the password fail                                          " name="Then the system display the password fail                                          ">
@@ -133,13 +133,13 @@
 	at ✽.Then the system display the password fail(target/generated-test-sources/cucumber/2.feature:61)
 </failure>
   </testcase>
-  <testcase time="0.002" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                           " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                           ">
+  <testcase time="0.003" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                           " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucoux\&quot;                                           ">
     <skipped/>
   </testcase>
-  <testcase time="0.003" classname="Then the system display the password fail                                            " name="Then the system display the password fail                                            ">
+  <testcase time="0.005" classname="Then the system display the password fail                                            " name="Then the system display the password fail                                            ">
     <skipped/>
   </testcase>
-  <testcase time="0.007" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                                             " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                                             ">
+  <testcase time="0.006" classname="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                                             " name="When he wants to be connected with this login \&quot;lmeurisse\&quot; and password \&quot;coucou\&quot;                                             ">
     <skipped/>
   </testcase>
   <testcase time="0.007" classname="Then the system authorize him                                              " name="Then the system authorize him                                              ">
