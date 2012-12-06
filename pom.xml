@@ -50,6 +50,7 @@
                 <version>1.0.0-BETA7-71-618c2d1a1e6276f8695006405b18367c8b8fbe19</version>
                 <configuration>
                     <server>http://localhost:8080</server>
+                    
                     <projectKey>APP</projectKey>
                     <username>lmeurisse</username>
                     <password>lmeurisse</password>
@@ -84,6 +85,31 @@
     </build>
 
     <dependencies>
+       <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>2.25.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>2.25.0</version>
+            <scope>test</scope>
+        </dependency>
+                <dependency>
+            <groupId>org.picocontainer</groupId>
+            <artifactId>picocontainer</artifactId>
+            <version>2.14.1</version>
+            <scope>test</scope>
+        </dependency>
+             <dependency>
+            <groupId>org.webbitserver</groupId>
+            <artifactId>webbit</artifactId>
+            <version>0.4.14</version>
+            
+        </dependency>
+        
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>

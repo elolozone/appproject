@@ -94,9 +94,8 @@ public class Cool {
 
 	@Given("^he has the following next flights :$")
 	public void he_has_the_following_next_flights_(DataTable arg1) throws Throwable {
-	    // Express the Regexp above with the code you wish you had
-	    // For automatic conversion, change DataTable to List<YourType>
-	    throw new PendingException();
+  	    
+    
 	}
 
 	@When("^I want the list of the next (\\d+) flights$")
