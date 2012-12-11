@@ -1,0 +1,6 @@
+Feature: Feature
+
+  Background:  [90m# target/generated-test-sources/cucumber/6.feature:4[0m
+
+  @ORPHAN
+  Scenario: scenario [90m# target/generated-test-sources/cucumber/6.feature:9[0m

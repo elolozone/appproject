@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>info.cukes</groupId>
-    <artifactId>appproject</artifactId>
+    <artifactId>calcproject</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
     <name>superb app</name>
@@ -49,11 +49,11 @@
                 <artifactId>behave-maven-plugin</artifactId>
                 <version>1.0.0-BETA7-71-618c2d1a1e6276f8695006405b18367c8b8fbe19</version>
                 <configuration>
-                    <server>http://localhost:8080</server>
+                    <server>http://ec2-54-246-9-132.eu-west-1.compute.amazonaws.com</server>
                     
-                    <projectKey>APP</projectKey>
+                    <projectKey>CALC</projectKey>
                     <username>lmeurisse</username>
-                    <password>lmeurisse</password>
+                    <password>sapiens</password>
                 </configuration>
                 <executions>
                     <execution>
