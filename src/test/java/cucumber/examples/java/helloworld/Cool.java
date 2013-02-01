@@ -43,5 +43,17 @@ public class Cool {
 	}
 
 
+@When("^he loggs with \"([^\"]*)\" password \"([^\"]*)\"$")
+public void he_loggs_with_password(String arg1, String arg2) throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+
+@Then("^he access to the home page$")
+public void he_access_to_the_home_page() throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+
 
 }
