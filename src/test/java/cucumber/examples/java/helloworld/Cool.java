@@ -16,100 +16,31 @@ import static org.junit.Assert.assertFalse;
 
 public class Cool {
 
-
-	String username;
-	Loggin loggin ;
-	String RetourConnect; 
-
-
-	@Given("^a user \"([^\"]*)\"$")
-	public void a_user(String arg1) throws Throwable {
-
-		assertNotNull(arg1);
-		username  = arg1;
-
-
-
-
-	}
-
-	@Given("^his login is \"([^\"]*)\" and Password \"([^\"]*)\"$")
-	public void his_login_is_and_Password(String arg1, String arg2) throws Throwable {
-		// Express the Regexp above with the code you wish you had
-		assertNotNull ( username);
-		assertNotNull (arg1,arg2);
-
-		loggin = new Loggin ();
-		loggin.createUser( username, arg1, arg2);
-
-	}
-
-	@When("^he wants to be connected with this login \"([^\"]*)\" and password \"([^\"]*)\"$")
-	public void he_wants_to_be_connected_with_this_login_and_password(String arg1, String arg2)   {
-
-		RetourConnect = loggin.connect(arg1, arg2);
-		 
-	}
-
-	@Then("^the system authorize him$")
-	public void the_system_authorize_him() throws Throwable {
-
-
-
-		assertEquals("OK",RetourConnect);
-	}
-
-	@Then("^the system display the password fail$")
-	public void the_system_display_the_password_fail() throws Throwable {
-
-
-		assertEquals("password fail",RetourConnect);
-	}
-
-
-
-	@Then("^the system display that the account is locked$")
-	public void the_system_display_that_the_account_is_locked() throws Throwable {
-
-		assertEquals("account locked",RetourConnect );
-
+	class Caculatrice {
+		int entier1;
+		int resultat; 
+		public void carre() {resultat = entier1 * entier1;};
 	}
 	
-	@Then("^the system has to display this \"([^\"]*)\"$")
-	public void the_system_has_to_display_this(String arg1) throws Throwable {
-		assertEquals(arg1,RetourConnect );
-	}
-	
-	
-	//***
-	
-	@Given("^he is already logged$")
-	public void he_is_already_logged() throws Throwable {
-		
-		loggin = new Loggin ();
-		loggin.createUser( username, username, username);
-		RetourConnect = loggin.connect(username, username);
-		assertEquals("OK",RetourConnect);
+	Caculatrice maCalculatrice;
+
+	@Given("^a user$")
+	public void une_calculatrice() throws Throwable {
+		maCalculatrice = new Caculatrice();
 	}
 
-	@Given("^he has the following next flights :$")
-	public void he_has_the_following_next_flights_(DataTable arg1) throws Throwable {
-  	    
-    
+	@When("^je saisie le nombre (\\d+) et je demande le carre$")
+	public void je_saisie_le_nombre_et_je_demande_le_carre(int arg1) throws Throwable {
+	    maCalculatrice.entier1  = arg1;
+	    maCalculatrice.carre();
 	}
 
-	@When("^I want the list of the next (\\d+) flights$")
-	public void I_want_the_list_of_the_next_flights(int arg1) throws Throwable {
-	    // Express the Regexp above with the code you wish you had
-	    throw new PendingException();
+	@Then("^le resultat doit etre (\\d+)$")
+	public void le_resultat_doit_etre(int arg1) throws Throwable {
+	   
+		assertEquals(arg1, maCalculatrice.resultat);  
 	}
 
-	@Then("^I get the following list :$")
-	public void I_get_the_following_list_(DataTable arg1) throws Throwable {
-	    // Express the Regexp above with the code you wish you had
-	    // For automatic conversion, change DataTable to List<YourType>
-	    throw new PendingException();
-	}
 
 
 }

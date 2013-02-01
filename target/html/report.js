@@ -1,8 +1,8 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027target/generated-test-sources/cucumber/6.feature\u0027");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027target/generated-test-sources/cucumber/2.feature\u0027");
 formatter.feature({
-  "id": "feature",
+  "id": "login",
   "description": "",
-  "name": "Feature",
+  "name": "Login",
   "keyword": "Feature",
   "line": 1
 });
@@ -14,17 +14,51 @@ formatter.background({
   "type": "background"
 });
 formatter.scenario({
-  "id": "feature;scenario",
+  "id": "login;sucess-login",
   "tags": [
     {
-      "name": "@ORPHAN",
+      "name": "@OPEN",
+      "line": 8
+    },
+    {
+      "name": "@CALC-1",
       "line": 8
     }
   ],
   "description": "",
-  "name": "scenario",
+  "name": "Sucess Login",
   "keyword": "Scenario",
   "line": 9,
   "type": "scenario"
+});
+formatter.step({
+  "name": "a user",
+  "keyword": "Given ",
+  "line": 10
+});
+formatter.step({
+  "name": "he loggs with \"lmeurisse\" password \"ekito\"",
+  "keyword": "When ",
+  "line": 11
+});
+formatter.step({
+  "name": "he access to the home page",
+  "keyword": "Then ",
+  "line": 12
+});
+formatter.match({
+  "location": "Cool.une_calculatrice()"
+});
+formatter.result({
+  "duration": 173922000,
+  "status": "passed"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 });

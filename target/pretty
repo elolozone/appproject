@@ -1,6 +1,12 @@
-Feature: Feature
+Feature: Login
 
-  Background:  [90m# target/generated-test-sources/cucumber/6.feature:4[0m
+  Background:  [90m# target/generated-test-sources/cucumber/2.feature:4[0m
 
-  @ORPHAN
-  Scenario: scenario [90m# target/generated-test-sources/cucumber/6.feature:9[0m
+  @OPEN @CALC-1
+  Scenario: Sucess Login                            [90m# target/generated-test-sources/cucumber/2.feature:9[0m
+    [90mGiven [0m[90ma user[0m                                    [90m# Cool.une_calculatrice()[0m
+[1A    [32mGiven [0m[32ma user[0m                                    [90m# Cool.une_calculatrice()[0m
+    [90mWhen [0m[90mhe loggs with "lmeurisse" password "ekito"[0m
+[1A    [33mWhen [0m[33mhe loggs with "lmeurisse" password "ekito"[0m
+    [90mThen [0m[90mhe access to the home page[0m
+[1A    [33mThen [0m[33mhe access to the home page[0m
