@@ -50,7 +50,7 @@ formatter.match({
   "location": "Cool.une_calculatrice()"
 });
 formatter.result({
-  "duration": 173922000,
+  "duration": 178460000,
   "status": "passed"
 });
 formatter.match({});
