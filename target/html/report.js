@@ -47,18 +47,33 @@ formatter.step({
   "line": 12
 });
 formatter.match({
-  "location": "Cool.une_calculatrice()"
+  "location": "CommonCalcFeature.une_calculatrice()"
 });
 formatter.result({
-  "duration": 144646000,
-  "status": "passed"
+  "duration": 163564000,
+  "status": "failed",
+  "error_message": "java.lang.AssertionError: expected:\u003ccucumber.examples.java.helloworld.CommonCalcFeature$Caculatrice@643cb075\u003e but was:\u003cnull\u003e\n\tat org.junit.Assert.fail(Assert.java:93)\n\tat org.junit.Assert.failNotEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:128)\n\tat org.junit.Assert.assertEquals(Assert.java:147)\n\tat cucumber.examples.java.helloworld.CommonCalcFeature.une_calculatrice(CommonCalcFeature.java:31)\n\tat ✽.Given a user(target/generated-test-sources/cucumber/2.feature:10)\n"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "lmeurisse",
+      "offset": 15
+    },
+    {
+      "val": "ekito",
+      "offset": 36
+    }
+  ],
+  "location": "CommonCalcFeature.he_loggs_with_password(String,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "CommonCalcFeature.he_access_to_the_home_page()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });
