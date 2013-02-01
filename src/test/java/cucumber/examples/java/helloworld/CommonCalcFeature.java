@@ -14,7 +14,7 @@ import static org.junit.Assert.assertFalse;
 
 
 
-public class Cool {
+public class CommonCalcFeature {
 
 	class Caculatrice {
 		int entier1;
@@ -28,6 +28,7 @@ public class Cool {
 	
 	public void une_calculatrice() throws Throwable {
 		maCalculatrice = new Caculatrice();
+		assertEquals(maCalculatrice,null);
 	}
 
 	@When("^je saisie le nombre (\\d+) et je demande le carre$")
