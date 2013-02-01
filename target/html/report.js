@@ -1,8 +1,8 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027target/generated-test-sources/cucumber/2.feature\u0027");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027target/generated-test-sources/cucumber/3.feature\u0027");
 formatter.feature({
-  "id": "login",
+  "id": "common-operation",
   "description": "",
-  "name": "Login",
+  "name": "common operation",
   "keyword": "Feature",
   "line": 1
 });
@@ -14,66 +14,57 @@ formatter.background({
   "type": "background"
 });
 formatter.scenario({
-  "id": "login;sucess-login",
+  "id": "common-operation;good-addition",
   "tags": [
     {
       "name": "@OPEN",
       "line": 8
     },
     {
-      "name": "@CALC-1",
+      "name": "@CALC-5",
       "line": 8
     }
   ],
   "description": "",
-  "name": "Sucess Login",
+  "name": "good addition",
   "keyword": "Scenario",
   "line": 9,
   "type": "scenario"
 });
 formatter.step({
-  "name": "a user",
+  "name": "a calculator",
   "keyword": "Given ",
   "line": 10
 });
 formatter.step({
-  "name": "he loggs with \"lmeurisse\" password \"ekito\"",
+  "name": "I have the number 23 and 45",
   "keyword": "When ",
   "line": 11
 });
 formatter.step({
-  "name": "he access to the home page",
-  "keyword": "Then ",
+  "name": "I want to display the addition",
+  "keyword": "And ",
   "line": 12
 });
-formatter.match({
-  "location": "CommonCalcFeature.une_calculatrice()"
+formatter.step({
+  "name": "The result should 68",
+  "keyword": "Then ",
+  "line": 13
 });
+formatter.match({});
 formatter.result({
-  "duration": 163564000,
-  "status": "failed",
-  "error_message": "java.lang.AssertionError: expected:\u003ccucumber.examples.java.helloworld.CommonCalcFeature$Caculatrice@643cb075\u003e but was:\u003cnull\u003e\n\tat org.junit.Assert.fail(Assert.java:93)\n\tat org.junit.Assert.failNotEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:128)\n\tat org.junit.Assert.assertEquals(Assert.java:147)\n\tat cucumber.examples.java.helloworld.CommonCalcFeature.une_calculatrice(CommonCalcFeature.java:31)\n\tat ✽.Given a user(target/generated-test-sources/cucumber/2.feature:10)\n"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "lmeurisse",
-      "offset": 15
-    },
-    {
-      "val": "ekito",
-      "offset": 36
-    }
-  ],
-  "location": "CommonCalcFeature.he_loggs_with_password(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "CommonCalcFeature.he_access_to_the_home_page()"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 });
