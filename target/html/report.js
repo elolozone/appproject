@@ -51,9 +51,12 @@ formatter.step({
   "keyword": "Then ",
   "line": 13
 });
-formatter.match({});
+formatter.match({
+  "location": "CommonCalcFeature.a_calculator()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 192399000,
+  "status": "passed"
 });
 formatter.match({});
 formatter.result({

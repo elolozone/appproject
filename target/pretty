@@ -4,8 +4,8 @@ Feature: common operation
 
   @OPEN @CALC-5
   Scenario: good addition              [90m# target/generated-test-sources/cucumber/3.feature:9[0m
-    [90mGiven [0m[90ma calculator[0m
-[1A    [33mGiven [0m[33ma calculator[0m
+    [90mGiven [0m[90ma calculator[0m                 [90m# CommonCalcFeature.a_calculator()[0m
+[1A    [32mGiven [0m[32ma calculator[0m                 [90m# CommonCalcFeature.a_calculator()[0m
     [90mWhen [0m[90mI have the number 23 and 45[0m
 [1A    [33mWhen [0m[33mI have the number 23 and 45[0m
     [90mAnd [0m[90mI want to display the addition[0m
