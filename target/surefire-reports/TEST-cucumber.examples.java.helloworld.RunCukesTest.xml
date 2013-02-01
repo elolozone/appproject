@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.044" errors="0" skipped="3" tests="5" name="cucumber.examples.java.helloworld.RunCukesTest">
+<testsuite failures="0" time="0.058" errors="0" skipped="3" tests="5" name="cucumber.examples.java.helloworld.RunCukesTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -27,7 +27,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/Lolo/Documents/workspace-sts-2.9.1.RELEASE/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf5638889889993215547.tmp"/>
+    <property name="classworlds.conf" value="/Users/Lolo/Documents/workspace-sts-2.9.1.RELEASE/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf2874576124816707142.tmp"/>
     <property name="sun.jnu.encoding" value="MacRoman"/>
     <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="fr"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -65,14 +65,14 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase time="0.001" classname="Given a user   " name="Given a user   "/>
-  <testcase time="0.01" classname="When he loggs with \&quot;lmeurisse\&quot; password \&quot;ekito\&quot;    " name="When he loggs with \&quot;lmeurisse\&quot; password \&quot;ekito\&quot;    ">
+  <testcase time="0.013" classname="When he loggs with \&quot;lmeurisse\&quot; password \&quot;ekito\&quot;    " name="When he loggs with \&quot;lmeurisse\&quot; password \&quot;ekito\&quot;    ">
     <skipped/>
   </testcase>
-  <testcase time="0.011" classname="Then he access to the home page     " name="Then he access to the home page     ">
+  <testcase time="0.014" classname="Then he access to the home page     " name="Then he access to the home page     ">
     <skipped/>
   </testcase>
-  <testcase time="0.011" classname="Scenario: Sucess Login  " name="Scenario: Sucess Login  ">
+  <testcase time="0.015" classname="Scenario: Sucess Login  " name="Scenario: Sucess Login  ">
     <skipped/>
   </testcase>
-  <testcase time="0.011" classname="Scenario: Sucess Login  " name="Scenario: Sucess Login  "/>
+  <testcase time="0.015" classname="Scenario: Sucess Login  " name="Scenario: Sucess Login  "/>
 </testsuite>
