@@ -25,6 +25,7 @@ public class Cool {
 	Caculatrice maCalculatrice;
 
 	@Given("^a user$")
+	
 	public void une_calculatrice() throws Throwable {
 		maCalculatrice = new Caculatrice();
 	}
