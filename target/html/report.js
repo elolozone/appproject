@@ -13,6 +13,15 @@ formatter.background({
   "line": 4,
   "type": "background"
 });
+formatter.step({
+  "name": "un jeu de donnée XXX",
+  "keyword": "Given ",
+  "line": 5
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
 formatter.scenario({
   "id": "common-operation;add-two-numbers-and-the-result-is-good",
   "tags": [
@@ -50,8 +59,7 @@ formatter.match({
   "location": "CommonCalcFeature.a_calculator()"
 });
 formatter.result({
-  "duration": 122714000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -67,8 +75,7 @@ formatter.match({
   "location": "CommonCalcFeature.I_want_add_two_numbers_the_first_and_the_second_(int,int)"
 });
 formatter.result({
-  "duration": 2487000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -80,8 +87,7 @@ formatter.match({
   "location": "CommonCalcFeature.the_result_is(int)"
 });
 formatter.result({
-  "duration": 2567000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "description": "",
@@ -89,6 +95,15 @@ formatter.background({
   "keyword": "Background",
   "line": 4,
   "type": "background"
+});
+formatter.step({
+  "name": "un jeu de donnée XXX",
+  "keyword": "Given ",
+  "line": 5
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 formatter.scenario({
   "id": "common-operation;add-two-numbers-including-one-is-zero-and-the-result-is-good",
@@ -123,8 +138,7 @@ formatter.match({
   "location": "CommonCalcFeature.a_calculator()"
 });
 formatter.result({
-  "duration": 88000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -140,8 +154,7 @@ formatter.match({
   "location": "CommonCalcFeature.I_want_add_two_numbers_the_first_and_the_second_(int,int)"
 });
 formatter.result({
-  "duration": 117000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -153,7 +166,6 @@ formatter.match({
   "location": "CommonCalcFeature.the_result_is(int)"
 });
 formatter.result({
-  "duration": 128000,
-  "status": "passed"
+  "status": "skipped"
 });
 });

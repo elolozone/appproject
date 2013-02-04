@@ -2,7 +2,7 @@ Feature: Common operation
     
 
       Background:
-    
+    Given un jeu de donnée XXX
 
   
   @WIP @CALC-6     

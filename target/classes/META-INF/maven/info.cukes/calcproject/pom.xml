@@ -49,7 +49,7 @@
                 <artifactId>behave-maven-plugin</artifactId>
                 <version>1.0.0-84-d947ee7fe3f80565588c7b67a73ee9ab58fb5339</version>
                 <configuration>
-                    <server>http://codeen.demo</server>
+                    <server>http://testday.ccc</server>
                     
                     <projectKey>CALC</projectKey>
                     <username>ekito</username>
