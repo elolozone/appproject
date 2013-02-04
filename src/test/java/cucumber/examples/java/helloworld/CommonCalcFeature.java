@@ -22,14 +22,14 @@ public class CommonCalcFeature {
 	
 	@Given("^a calculator$")
 	public void a_calculator() throws Throwable {
-		Calculator  myCalculator = new Calculator();
+		  myCalculator = new Calculator();
 	}
 	
 	 
 	@When("^I want add two numbers, the first : ([-+]?\\d+) , and the second : (-?\\d+)$")
 	public void I_want_add_two_numbers_the_first_and_the_second_(int arg1, int arg2) throws Throwable {
 	    // Express the Regexp above with the code you wish you had
-	    resultadd = arg1+arg2;
+	    resultadd = myCalculator.add(arg1, arg2);
 	}
 
 	@Then("^the result is (-?\\d+)$")

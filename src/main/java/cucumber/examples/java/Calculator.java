@@ -2,10 +2,10 @@ package cucumber.examples.java;
 
 public class Calculator {
 
+ 
 	
-	int entier1;
-	int resultat; 
-	public void carre() {resultat = entier1 * entier1;};
+	public int add(int arg1, int arg2) 
+	{return arg1+arg2;}
 	
 	
 }
