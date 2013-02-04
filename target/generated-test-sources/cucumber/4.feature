@@ -2,7 +2,7 @@ Feature: Common operation
     
 
       Background:
-    Given un jeu de donnée XXX
+    
 
   
   @WIP @CALC-6     
@@ -10,11 +10,14 @@ Feature: Common operation
     Given a calculator 
     When I want add two numbers, the first : 23 , and the second : 45
     Then the result is 68
+    Given a calculator 
+    When I want add two numbers, the first : -23 , and the second : -45
+    Then the result is -68
   
 
   @ORPHAN     
-  Scenario: add two numbers including one is zero and the result is good  
+  Scenario: add three numbers 
     Given a calculator 
-    When I want add two numbers, the first : 23 , and the second : 0
-    Then the result is 23
+    When I want add two numbers, the first : '-23' , the second : -45, and the third : +88
+    Then the result is 00
   

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.668" errors="4" skipped="6" tests="10" name="cucumber.examples.java.helloworld.RunCukesTest">
+<testsuite failures="0" time="0.019" errors="0" skipped="3" tests="12" name="cucumber.examples.java.helloworld.RunCukesTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -27,14 +27,13 @@
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/Lolo/Documents/workspace-sts-2.9.1.RELEASE/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf2067462605404013195.tmp"/>
+    <property name="classworlds.conf" value="/Users/Lolo/Documents/workspace-sts-2.9.1.RELEASE/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf2674287780887916807.tmp"/>
     <property name="sun.jnu.encoding" value="MacRoman"/>
     <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.8.2"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/Lolo"/>
     <property name="user.timezone" value="Europe/Paris"/>
     <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
@@ -60,198 +59,24 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="mrj.version" value="1070.1.6.0_37-434"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.098" classname="Given un jeu de donn\u00E9e XXX   " name="Given un jeu de donn\u00E9e XXX   ">
-    <error message="TODO: implement me" type="cucumber.runtime.PendingException">cucumber.runtime.PendingException: TODO: implement me
-	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:118)
-	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:107)
-	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:77)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:45)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:34)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:76)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:65)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:20)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-  </testcase>
-  <testcase time="0.107" classname="Scenario: add two numbers and the result is good  " name="Scenario: add two numbers and the result is good  ">
-    <error message="TODO: implement me" type="cucumber.runtime.PendingException">cucumber.runtime.PendingException: TODO: implement me
-	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:118)
-	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:107)
-	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:77)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:45)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:34)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:76)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:65)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:20)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-  </testcase>
-  <testcase time="0.119" classname="Given a calculator    " name="Given a calculator    ">
+  <testcase time="0.001" classname="Given a calculator   " name="Given a calculator   "/>
+  <testcase time="0" classname="When I want add two numbers\u002C the first : 23 \u002C and the second : 45    " name="When I want add two numbers\u002C the first : 23 \u002C and the second : 45    "/>
+  <testcase time="0" classname="Then the result is 68     " name="Then the result is 68     "/>
+  <testcase time="0" classname="Given a calculator      " name="Given a calculator      "/>
+  <testcase time="0" classname="When I want add two numbers\u002C the first : -23 \u002C and the second : -45       " name="When I want add two numbers\u002C the first : -23 \u002C and the second : -45       "/>
+  <testcase time="0" classname="Then the result is -68        " name="Then the result is -68        "/>
+  <testcase time="0.001" classname="Scenario: add two numbers and the result is good  " name="Scenario: add two numbers and the result is good  "/>
+  <testcase time="0" classname="Given a calculator          " name="Given a calculator          "/>
+  <testcase time="0.002" classname="When I want add two numbers\u002C the first : \&apos;-23\&apos; \u002C the second : -45\u002C and the third : +88           " name="When I want add two numbers\u002C the first : \&apos;-23\&apos; \u002C the second : -45\u002C and the third : +88           ">
     <skipped/>
   </testcase>
-  <testcase time="0.121" classname="When I want add two numbers\u002C the first : 23 \u002C and the second : 45     " name="When I want add two numbers\u002C the first : 23 \u002C and the second : 45     ">
+  <testcase time="0.005" classname="Then the result is 00            " name="Then the result is 00            ">
     <skipped/>
   </testcase>
-  <testcase time="0.121" classname="Then the result is 68      " name="Then the result is 68      ">
+  <testcase time="0.005" classname="Scenario: add three numbers         " name="Scenario: add three numbers         ">
     <skipped/>
   </testcase>
-  <testcase time="0.011" classname="Given un jeu de donn\u00E9e XXX        " name="Given un jeu de donn\u00E9e XXX        ">
-    <error message="TODO: implement me" type="cucumber.runtime.PendingException">cucumber.runtime.PendingException: TODO: implement me
-	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:118)
-	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:107)
-	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:77)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:45)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:34)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:76)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:65)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:20)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-  </testcase>
-  <testcase time="0.011" classname="Scenario: add two numbers including one is zero and the result is good       " name="Scenario: add two numbers including one is zero and the result is good       ">
-    <error message="TODO: implement me" type="cucumber.runtime.PendingException">cucumber.runtime.PendingException: TODO: implement me
-	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:118)
-	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:107)
-	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:77)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:45)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:34)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:76)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:65)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:20)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:82)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-  </testcase>
-  <testcase time="0.02" classname="Given a calculator         " name="Given a calculator         ">
-    <skipped/>
-  </testcase>
-  <testcase time="0.03" classname="When I want add two numbers\u002C the first : 23 \u002C and the second : 0          " name="When I want add two numbers\u002C the first : 23 \u002C and the second : 0          ">
-    <skipped/>
-  </testcase>
-  <testcase time="0.03" classname="Then the result is 23           " name="Then the result is 23           ">
-    <skipped/>
-  </testcase>
+  <testcase time="0.005" classname="Scenario: add three numbers         " name="Scenario: add three numbers         "/>
 </testsuite>

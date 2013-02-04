@@ -26,13 +26,13 @@ public class CommonCalcFeature {
 	}
 	
 	 
-	@When("^I want add two numbers, the first : (\\d+) , and the second : (\\d+)$")
+	@When("^I want add two numbers, the first : ([-+]?\\d+) , and the second : (-?\\d+)$")
 	public void I_want_add_two_numbers_the_first_and_the_second_(int arg1, int arg2) throws Throwable {
 	    // Express the Regexp above with the code you wish you had
 	    resultadd = arg1+arg2;
 	}
 
-	@Then("^the result is (\\d+)$")
+	@Then("^the result is (-?\\d+)$")
 	public void the_result_is(int arg1) throws Throwable {
 	    assertEquals(arg1, resultadd) ;
 	}

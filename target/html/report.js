@@ -13,15 +13,6 @@ formatter.background({
   "line": 4,
   "type": "background"
 });
-formatter.step({
-  "name": "un jeu de donnée XXX",
-  "keyword": "Given ",
-  "line": 5
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
 formatter.scenario({
   "id": "common-operation;add-two-numbers-and-the-result-is-good",
   "tags": [
@@ -55,11 +46,27 @@ formatter.step({
   "keyword": "Then ",
   "line": 12
 });
+formatter.step({
+  "name": "a calculator",
+  "keyword": "Given ",
+  "line": 13
+});
+formatter.step({
+  "name": "I want add two numbers, the first : -23 , and the second : -45",
+  "keyword": "When ",
+  "line": 14
+});
+formatter.step({
+  "name": "the result is -68",
+  "keyword": "Then ",
+  "line": 15
+});
 formatter.match({
   "location": "CommonCalcFeature.a_calculator()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 132502000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -75,7 +82,8 @@ formatter.match({
   "location": "CommonCalcFeature.I_want_add_two_numbers_the_first_and_the_second_(int,int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2792000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -87,7 +95,45 @@ formatter.match({
   "location": "CommonCalcFeature.the_result_is(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3925000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CommonCalcFeature.a_calculator()"
+});
+formatter.result({
+  "duration": 31000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "-23",
+      "offset": 36
+    },
+    {
+      "val": "-45",
+      "offset": 59
+    }
+  ],
+  "location": "CommonCalcFeature.I_want_add_two_numbers_the_first_and_the_second_(int,int)"
+});
+formatter.result({
+  "duration": 155000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "-68",
+      "offset": 14
+    }
+  ],
+  "location": "CommonCalcFeature.the_result_is(int)"
+});
+formatter.result({
+  "duration": 112000,
+  "status": "passed"
 });
 formatter.background({
   "description": "",
@@ -96,70 +142,50 @@ formatter.background({
   "line": 4,
   "type": "background"
 });
-formatter.step({
-  "name": "un jeu de donnée XXX",
-  "keyword": "Given ",
-  "line": 5
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
 formatter.scenario({
-  "id": "common-operation;add-two-numbers-including-one-is-zero-and-the-result-is-good",
+  "id": "common-operation;add-three-numbers",
   "tags": [
     {
       "name": "@ORPHAN",
-      "line": 15
+      "line": 18
     }
   ],
   "description": "",
-  "name": "add two numbers including one is zero and the result is good",
+  "name": "add three numbers",
   "keyword": "Scenario",
-  "line": 16,
+  "line": 19,
   "type": "scenario"
 });
 formatter.step({
   "name": "a calculator",
   "keyword": "Given ",
-  "line": 17
+  "line": 20
 });
 formatter.step({
-  "name": "I want add two numbers, the first : 23 , and the second : 0",
+  "name": "I want add two numbers, the first : \u0027-23\u0027 , the second : -45, and the third : +88",
   "keyword": "When ",
-  "line": 18
+  "line": 21
 });
 formatter.step({
-  "name": "the result is 23",
+  "name": "the result is 00",
   "keyword": "Then ",
-  "line": 19
+  "line": 22
 });
 formatter.match({
   "location": "CommonCalcFeature.a_calculator()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 154000,
+  "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "23",
-      "offset": 36
-    },
-    {
-      "val": "0",
-      "offset": 58
-    }
-  ],
-  "location": "CommonCalcFeature.I_want_add_two_numbers_the_first_and_the_second_(int,int)"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "23",
+      "val": "00",
       "offset": 14
     }
   ],
