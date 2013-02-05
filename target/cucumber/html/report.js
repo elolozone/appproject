@@ -1,190 +1,197 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027target/generated-test-sources/cucumber/4.feature\u0027");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027target/generated-test-sources/cucumber/5.feature\u0027");
 formatter.feature({
-  "id": "common-operation",
-  "description": "",
-  "name": "Common operation",
+  "id": "common-operations",
+  "tags": [
+    {
+      "name": "@CALC-11",
+      "line": 1
+    }
+  ],
+  "description": "   As Josette a student, I want give numbers to the system so that I can have result of many operations like +,-,/,*",
+  "name": "Common Operations",
   "keyword": "Feature",
-  "line": 1
+  "line": 2
 });
 formatter.background({
   "description": "",
   "name": "",
   "keyword": "Background",
-  "line": 4,
+  "line": 5,
   "type": "background"
 });
 formatter.scenario({
-  "id": "common-operation;add-two-numbers",
+  "id": "common-operations;enter-to-positive-numbers-and-get-the-addition",
   "tags": [
     {
       "name": "@OPEN",
-      "line": 8
+      "line": 9
     },
     {
-      "name": "@CALC-6",
-      "line": 8
+      "name": "@CALC-12",
+      "line": 9
     }
   ],
   "description": "",
-  "name": "add two numbers",
+  "name": "enter to positive numbers and get the addition",
   "keyword": "Scenario",
-  "line": 9,
+  "line": 10,
   "type": "scenario"
 });
 formatter.step({
   "name": "a calculator",
   "keyword": "Given ",
-  "line": 10
-});
-formatter.step({
-  "name": "I want add two numbers, the first : 23 , and the second : 45",
-  "keyword": "When ",
   "line": 11
 });
 formatter.step({
-  "name": "the result is 68",
-  "keyword": "Then ",
+  "name": "I enter the number 34",
+  "keyword": "When ",
   "line": 12
 });
 formatter.step({
-  "name": "a calculator",
-  "keyword": "Given ",
+  "name": "I enter the number 98",
+  "keyword": "And ",
   "line": 13
 });
 formatter.step({
-  "name": "I want add two numbers, the first : -23 , and the second : -45",
-  "keyword": "When ",
+  "name": "the result is 132",
+  "keyword": "Then ",
   "line": 14
 });
-formatter.step({
-  "name": "the result is -68",
-  "keyword": "Then ",
-  "line": 15
+formatter.match({
+  "location": "CommonCalcFeature.a_calculator()"
+});
+formatter.result({
+  "duration": 157939000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "34",
+      "offset": 19
+    }
+  ],
+  "location": "CommonCalcFeature.I_enter_the_number(int)"
+});
+formatter.result({
+  "duration": 2877000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "98",
+      "offset": 19
+    }
+  ],
+  "location": "CommonCalcFeature.I_enter_the_number(int)"
+});
+formatter.result({
+  "duration": 79000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "132",
+      "offset": 14
+    }
+  ],
+  "location": "CommonCalcFeature.the_result_is(int)"
+});
+formatter.result({
+  "duration": 99000,
+  "status": "passed"
+});
+formatter.background({
+  "description": "",
+  "name": "",
+  "keyword": "Background",
+  "line": 5,
+  "type": "background"
+});
+formatter.scenario({
+  "id": "common-operations;enter-to-negative-numbers-and-get-the-addition",
+  "tags": [
+    {
+      "name": "@OPEN",
+      "line": 17
+    },
+    {
+      "name": "@CALC-12",
+      "line": 17
+    }
+  ],
+  "description": "",
+  "name": "enter to negative numbers and get the addition",
+  "keyword": "Scenario",
+  "line": 18,
+  "type": "scenario"
 });
 formatter.step({
   "name": "a calculator",
   "keyword": "Given ",
-  "line": 16
+  "line": 19
 });
 formatter.step({
-  "name": "I want add two numbers, the first : -23 , and the second : 0",
+  "name": "I enter the number -34",
   "keyword": "When ",
-  "line": 17
+  "line": 20
 });
 formatter.step({
-  "name": "the result is -23",
+  "name": "I enter the number -98",
+  "keyword": "And ",
+  "line": 21
+});
+formatter.step({
+  "name": "the result is -132",
   "keyword": "Then ",
-  "line": 18
+  "line": 22
 });
 formatter.match({
   "location": "CommonCalcFeature.a_calculator()"
 });
 formatter.result({
-  "duration": 144094000,
+  "duration": 140000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "23",
-      "offset": 36
-    },
-    {
-      "val": "45",
-      "offset": 58
+      "val": "-34",
+      "offset": 19
     }
   ],
-  "location": "CommonCalcFeature.I_want_add_two_numbers_the_first_and_the_second_(int,int)"
+  "location": "CommonCalcFeature.I_enter_the_number(int)"
 });
 formatter.result({
-  "duration": 3641000,
+  "duration": 126000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "68",
+      "val": "-98",
+      "offset": 19
+    }
+  ],
+  "location": "CommonCalcFeature.I_enter_the_number(int)"
+});
+formatter.result({
+  "duration": 89000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "-132",
       "offset": 14
     }
   ],
   "location": "CommonCalcFeature.the_result_is(int)"
 });
 formatter.result({
-  "duration": 6311000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "CommonCalcFeature.a_calculator()"
-});
-formatter.result({
-  "duration": 43000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "-23",
-      "offset": 36
-    },
-    {
-      "val": "-45",
-      "offset": 59
-    }
-  ],
-  "location": "CommonCalcFeature.I_want_add_two_numbers_the_first_and_the_second_(int,int)"
-});
-formatter.result({
-  "duration": 213000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "-68",
-      "offset": 14
-    }
-  ],
-  "location": "CommonCalcFeature.the_result_is(int)"
-});
-formatter.result({
-  "duration": 247000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "CommonCalcFeature.a_calculator()"
-});
-formatter.result({
-  "duration": 48000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "-23",
-      "offset": 36
-    },
-    {
-      "val": "0",
-      "offset": 59
-    }
-  ],
-  "location": "CommonCalcFeature.I_want_add_two_numbers_the_first_and_the_second_(int,int)"
-});
-formatter.result({
-  "duration": 226000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "-23",
-      "offset": 14
-    }
-  ],
-  "location": "CommonCalcFeature.the_result_is(int)"
-});
-formatter.result({
-  "duration": 171000,
+  "duration": 71000,
   "status": "passed"
 });
 });

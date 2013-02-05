@@ -2,10 +2,32 @@ package cucumber.examples.java;
 
 public class Calculator {
 
+	int[] numbers;
+	int nbValue;
+	
+	
+	public Calculator(int dim) {
+ 
+		this.nbValue = 0;
+		numbers = new int[dim];
+	}
+
  
 	
-	public int add(int arg1, int arg2) 
-	{return arg1+arg2;}
+	public void pushNumber (int arg)
+	{
+		numbers[nbValue++] = arg;
+	};
 	
+	public int addResult ()
+	{
+		int result = 0;
+		int i;
+		for (i=0; i<nbValue; i++) {
+		   result = result + numbers[i];
+		}
+		return result;
+	}
 	
 }
+ 

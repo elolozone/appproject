@@ -18,30 +18,23 @@ import static org.junit.Assert.assertFalse;
 public class CommonCalcFeature {
 
 	Calculator  myCalculator;
-	int resultadd;
 	
 	@Given("^a calculator$")
 	public void a_calculator() throws Throwable {
-		  myCalculator = new Calculator();
-	}
-	
-	 
-	@When("^I want add two numbers, the first : ([-+]?\\d+) , and the second : (-?\\d+)$")
-	public void I_want_add_two_numbers_the_first_and_the_second_(int arg1, int arg2) throws Throwable {
-	    // Express the Regexp above with the code you wish you had
-	    resultadd = myCalculator.add(arg1, arg2);
+		 myCalculator = new Calculator(2);
+		 assertNotNull(myCalculator);
+
 	}
 
-	@Then("^the result is (-?\\d+)$")
+	@When("^I enter the number ([-+]?\\d+)$")
+	public void I_enter_the_number(int arg1) throws Throwable {
+	    myCalculator.pushNumber(arg1);
+	}
+	
+	@Then("^the result is ([-+]?\\d+)$")
 	public void the_result_is(int arg1) throws Throwable {
-	    assertEquals(arg1, resultadd) ;
+		assertEquals(arg1, myCalculator.addResult ());
 	}
-	
-	
-	
-
-
-
   
 
 }
