@@ -17,24 +17,7 @@ import static org.junit.Assert.assertFalse;
 
 public class CommonCalcFeature {
 
-	Calculator  myCalculator;
+ 	Calculator  myCalculator;
 	
-	@Given("^a calculator$")
-	public void a_calculator() throws Throwable {
-		 myCalculator = new Calculator(2);
-		 assertNotNull(myCalculator);
-
-	}
-
-	@When("^I enter the number ([-+]?\\d+)$")
-	public void I_enter_the_number(int arg1) throws Throwable {
-	    myCalculator.pushNumber(arg1);
-	}
-	
-	@Then("^the result is ([-+]?\\d+)$")
-	public void the_result_is(int arg1) throws Throwable {
-		assertEquals(arg1, myCalculator.addResult ());
-	}
-  
 
 }

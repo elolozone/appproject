@@ -17,7 +17,10 @@
     </pluginRepository>
      
     </pluginRepositories>
-
+      <properties>
+     <cukeArgs>--tags ~@wip --tags ~@benchmark --tags ~@html</cukeArgs>
+  </properties>
+  
 
 
     <build>
@@ -63,6 +66,22 @@
                     </execution>
                 </executions>
             </plugin>
+            
+      
+  
+  
+    <plugin>
+      <groupId>cuke4duke</groupId>
+      <artifactId>cuke4duke-maven-plugin</artifactId>
+      <version>1.0.10</version>
+      <configuration>
+        <cucumberArgs>
+         
+          <cucumberArg>${cukeArgs}</cucumberArg>
+        </cucumberArgs>
+      </configuration>
+    </plugin>
+  
 
  <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
