@@ -1,12 +1,46 @@
-Feature: essai
+Feature: As a student I need a calculator to calculate *,+,-,/
 
-  Background:  [90m# target/generated-test-sources/cucumber/6.feature:4[0m
+  Background:  [90m# target/generated-test-sources/cucumber/8.feature:4[0m
 
-  @ORPHAN
-  Scenario: scen                  [90m# target/generated-test-sources/cucumber/6.feature:9[0m
-    [90mGiven [0m[90mune rue, un utilisateur[0m
-[1A    [33mGiven [0m[33mune rue, un utilisateur[0m
-    [90mWhen [0m[90mje marche trop vite[0m
-[1A    [33mWhen [0m[33mje marche trop vite[0m
-    [90mThen [0m[90mje tombe[0m
-[1A    [33mThen [0m[33mje tombe[0m
+  @WIP @CALC-16
+  Scenario Outline: add two numbers [90m# target/generated-test-sources/cucumber/8.feature:18[0m
+    [90mGiven [0m[90ma calculator[0m              [90m# CommonCalcFeature.a_calculator()[0m
+[1A    [32mGiven [0m[32ma calculator[0m              [90m# CommonCalcFeature.a_calculator()[0m
+    [90mWhen [0m[90mI have the number [0m[90m[1m12[0m       [90m# CommonCalcFeature.I_have_the_number(int)[0m
+[1A    [32mWhen [0m[32mI have the number [0m[32m[1m12[0m       [90m# CommonCalcFeature.I_have_the_number(int)[0m
+    [90mAnd [0m[90mI have the number [0m[90m[1m1[0m         [90m# CommonCalcFeature.I_have_the_number(int)[0m
+[1A    [32mAnd [0m[32mI have the number [0m[32m[1m1[0m         [90m# CommonCalcFeature.I_have_the_number(int)[0m
+    [90mAnd [0m[90mI want to sum them[0m          [90m# CommonCalcFeature.I_want_to_sum_them()[0m
+[1A    [32mAnd [0m[32mI want to sum them[0m          [90m# CommonCalcFeature.I_want_to_sum_them()[0m
+    [90mThen [0m[90mthe result must be [0m[90m[1m13[0m      [90m# CommonCalcFeature.the_result_must_be(int)[0m
+[1A    [32mThen [0m[32mthe result must be [0m[32m[1m13[0m      [90m# CommonCalcFeature.the_result_must_be(int)[0m
+
+  Background:  [90m# target/generated-test-sources/cucumber/8.feature:4[0m
+
+  @WIP @CALC-16
+  Scenario: add two negative numbers [90m# target/generated-test-sources/cucumber/8.feature:22[0m
+    [90mGiven [0m[90ma calculator[0m               [90m# CommonCalcFeature.a_calculator()[0m
+[1A    [32mGiven [0m[32ma calculator[0m               [90m# CommonCalcFeature.a_calculator()[0m
+    [90mWhen [0m[90mI have the number [0m[90m[1m-3[0m        [90m# CommonCalcFeature.I_have_the_number(int)[0m
+[1A    [32mWhen [0m[32mI have the number [0m[32m[1m-3[0m        [90m# CommonCalcFeature.I_have_the_number(int)[0m
+    [90mAnd [0m[90mI have the number [0m[90m[1m-24[0m        [90m# CommonCalcFeature.I_have_the_number(int)[0m
+[1A    [32mAnd [0m[32mI have the number [0m[32m[1m-24[0m        [90m# CommonCalcFeature.I_have_the_number(int)[0m
+    [90mAnd [0m[90mI want to sum them[0m           [90m# CommonCalcFeature.I_want_to_sum_them()[0m
+[1A    [32mAnd [0m[32mI want to sum them[0m           [90m# CommonCalcFeature.I_want_to_sum_them()[0m
+    [90mThen [0m[90mthe result must be [0m[90m[1m-27[0m      [90m# CommonCalcFeature.the_result_must_be(int)[0m
+[1A    [32mThen [0m[32mthe result must be [0m[32m[1m-27[0m      [90m# CommonCalcFeature.the_result_must_be(int)[0m
+
+  Background:  [90m# target/generated-test-sources/cucumber/8.feature:4[0m
+
+  @WIP @CALC-16
+  Scenario: add two other numbers [90m# target/generated-test-sources/cucumber/8.feature:31[0m
+    [90mGiven [0m[90ma calculator[0m            [90m# CommonCalcFeature.a_calculator()[0m
+[1A    [32mGiven [0m[32ma calculator[0m            [90m# CommonCalcFeature.a_calculator()[0m
+    [90mWhen [0m[90mI have the number [0m[90m[1m-23[0m    [90m# CommonCalcFeature.I_have_the_number(int)[0m
+[1A    [32mWhen [0m[32mI have the number [0m[32m[1m-23[0m    [90m# CommonCalcFeature.I_have_the_number(int)[0m
+    [90mAnd [0m[90mI have the number [0m[90m[1m44[0m      [90m# CommonCalcFeature.I_have_the_number(int)[0m
+[1A    [32mAnd [0m[32mI have the number [0m[32m[1m44[0m      [90m# CommonCalcFeature.I_have_the_number(int)[0m
+    [90mAnd [0m[90mI want to sum them[0m        [90m# CommonCalcFeature.I_want_to_sum_them()[0m
+[1A    [32mAnd [0m[32mI want to sum them[0m        [90m# CommonCalcFeature.I_want_to_sum_them()[0m
+    [90mThen [0m[90mthe result must be [0m[90m[1m21[0m    [90m# CommonCalcFeature.the_result_must_be(int)[0m
+[1A    [32mThen [0m[32mthe result must be [0m[32m[1m21[0m    [90m# CommonCalcFeature.the_result_must_be(int)[0m
